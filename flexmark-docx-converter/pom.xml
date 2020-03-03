@@ -98,8 +98,8 @@
         </dependency>
         <dependency>
             <groupId>org.docx4j</groupId>
-            <artifactId>docx4j-JAXB-Internal</artifactId>
-            <version>8.1.2</version>
+            <artifactId>docx4j-JAXB-ReferenceImpl</artifactId>
+            <version>8.1.4</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
