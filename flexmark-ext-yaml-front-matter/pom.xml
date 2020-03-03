@@ -4,8 +4,12 @@
     <parent>
         <artifactId>flexmark-java</artifactId>
         <groupId>com.vladsch.flexmark</groupId>
-        <version>0.60.2</version>
+        <version>0.60.2-jpms</version>
     </parent>
+
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
 
     <artifactId>flexmark-ext-yaml-front-matter</artifactId>
     <name>flexmark-java extension for YAML front matter</name>

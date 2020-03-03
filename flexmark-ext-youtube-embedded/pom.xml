@@ -4,9 +4,13 @@
     <parent>
         <artifactId>flexmark-java</artifactId>
         <groupId>com.vladsch.flexmark</groupId>
-        <version>0.60.2</version>
+        <version>0.60.2-jpms</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
 
     <artifactId>flexmark-ext-youtube-embedded</artifactId>
     <dependencies>

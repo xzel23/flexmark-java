@@ -54,7 +54,7 @@ following sample:
 <dependency>
     <groupId>com.vladsch.flexmark</groupId>
     <artifactId>flexmark-all</artifactId>
-    <version>0.60.2</version>
+    <version>0.60.2-jpms</version>
 </dependency>
 ```
 

@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.vladsch.flexmark</groupId>
         <artifactId>flexmark-java</artifactId>
-        <version>0.60.2</version>
+        <version>0.60.2-jpms</version>
     </parent>
 
     <artifactId>flexmark-pdf-converter</artifactId>
@@ -12,6 +12,7 @@
     <description>flexmark-java extension for markdown to pdf conversion</description>
 
     <properties>
+        <maven.compiler.release>11</maven.compiler.release>
         <!-- Define the version of OPEN HTML TO PDF in the properties section of your POM. -->
         <openhtml.version>1.0.0</openhtml.version>
     </properties>

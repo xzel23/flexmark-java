@@ -4,9 +4,13 @@
     <parent>
         <groupId>com.vladsch.flexmark</groupId>
         <artifactId>flexmark-java</artifactId>
-        <version>0.60.2</version>
+        <version>0.60.2-jpms</version>
     </parent>
-
+    
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
+    
     <artifactId>flexmark</artifactId>
     <name>flexmark-java core</name>
     <description>Core of flexmark-java (implementation of CommonMark for parsing markdown and rendering to HTML)</description>
