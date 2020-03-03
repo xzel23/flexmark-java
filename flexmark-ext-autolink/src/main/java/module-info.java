@@ -2,8 +2,7 @@ module flexmark.ext.autolink {
     requires flexmark;
     requires flexmark.util.sequence;
     requires org.jetbrains.annotations;
-    requires 
-autolink;
+    requires org.nibor.autolink;
     requires flexmark.util.ast;
     requires flexmark.util.data;
     exports com.vladsch.flexmark.ext.autolink;
