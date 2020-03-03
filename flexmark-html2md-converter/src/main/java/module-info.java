@@ -2,8 +2,9 @@ module flexmark.html2md.converter {
     requires org.jsoup;
     requires flexmark.util.dependency;
     requires flexmark.util.data;
-    requires annotations;
-    requires flexmark.util.misc;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.misc;
     requires flexmark.util.format;
     requires flexmark.util.html;
     requires flexmark.util.sequence;

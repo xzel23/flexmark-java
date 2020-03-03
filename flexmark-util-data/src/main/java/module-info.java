@@ -1,5 +1,6 @@
 module flexmark.util.data {
-    requires annotations;
-    requires flexmark.util.misc;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.misc;
     exports com.vladsch.flexmark.util.data;
 }

@@ -1,7 +1,8 @@
 module flexmark.test.util {
     requires flexmark.util.ast;
-    requires annotations;
-    requires flexmark.util.data;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.data;
     requires junit;
     requires flexmark.util.format;
     requires flexmark.util.misc;

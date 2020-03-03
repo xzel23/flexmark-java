@@ -1,6 +1,7 @@
 module flexmark.util.experimental {
-    requires annotations;
-    requires flexmark.util.sequence;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.sequence;
     requires flexmark.util.collection;
     requires flexmark.util.ast;
     requires flexmark.util.misc;

@@ -1,8 +1,9 @@
 module flexmark.ext.attributes {
     requires flexmark.util.ast;
     requires flexmark;
-    requires annotations;
-    requires flexmark.util.data;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.data;
     requires flexmark.util.format;
     requires flexmark.util.misc;
     requires flexmark.util.sequence;

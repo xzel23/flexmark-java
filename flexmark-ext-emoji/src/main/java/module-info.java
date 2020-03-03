@@ -1,7 +1,8 @@
 module flexmark.ext.emoji {
     requires flexmark.util.ast;
-    requires annotations;
-    requires flexmark.util.sequence;
+    requires org.jetbrains.annotations;
+    requires 
+flexmark.util.sequence;
     requires flexmark;
     requires flexmark.util.data;
     requires flexmark.util.misc;

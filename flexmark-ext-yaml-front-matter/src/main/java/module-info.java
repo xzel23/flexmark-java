@@ -3,6 +3,6 @@ module flexmark.ext.yaml.front.matter {
     requires flexmark;
     requires flexmark.util.data;
     requires flexmark.util.sequence;
-    requires annotations;
-    exports com.vladsch.flexmark.ext.yaml.front.matter;
+    requires org.jetbrains.annotations;
+exports com.vladsch.flexmark.ext.yaml.front.matter;
 }

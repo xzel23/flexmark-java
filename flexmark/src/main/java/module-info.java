@@ -1,5 +1,5 @@
 module flexmark {
-    requires annotations;
+    requires org.jetbrains.annotations;
     requires flexmark.util.data;
     requires flexmark.util.misc;
     requires flexmark.util.dependency;

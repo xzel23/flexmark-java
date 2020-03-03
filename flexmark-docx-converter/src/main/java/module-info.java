@@ -6,7 +6,7 @@ module flexmark.docx.converter {
     requires docx4j.openxml.objects;
     requires flexmark.util.visitor;
     requires flexmark.util.sequence;
-    requires annotations;
+    requires org.jetbrains.annotations;
     requires flexmark.ext.attributes;
     requires flexmark.ext.aside;
     requires flexmark.ext.emoji;
