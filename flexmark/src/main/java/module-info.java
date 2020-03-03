@@ -20,4 +20,5 @@ module flexmark {
     exports com.vladsch.flexmark.parser.core;
     exports com.vladsch.flexmark.parser.core.delimiter;
     exports com.vladsch.flexmark.parser.delimiter;
+    exports com.vladsch.flexmark.formatter.internal;
 }
