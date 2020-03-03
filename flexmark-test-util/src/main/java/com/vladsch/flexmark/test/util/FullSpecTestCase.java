@@ -3,6 +3,7 @@ package com.vladsch.flexmark.test.util;
 import com.vladsch.flexmark.test.util.spec.ResourceLocation;
 import com.vladsch.flexmark.test.util.spec.SpecReader;
 import org.jetbrains.annotations.NotNull;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -29,6 +30,7 @@ public abstract class FullSpecTestCase extends RenderingTestCase implements Spec
 
     }
 
+    @Ignore
     @Test
     public void testSpecExample() {
         ResourceLocation location = getSpecResourceLocation();
