@@ -21,6 +21,17 @@
 
     <url>https://github.com/vsch/flexmark-java</url>
 
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+        <repository>
+            <id>bintray-dua3-oss</id>
+            <url>https://dl.bintray.com/dua3/oss</url>
+        </repository>
+    </repositories>
+
     <modules>
         <module>flexmark</module>
         <module>flexmark-all</module>
